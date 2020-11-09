@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption-main" style="font-size: 17px">CARGAS DISPONÍVEIS</button>
+				<button class="menuoption" data-sub="gasolina">Gasolina</button>
+				<button class="menuoption" data-sub="diesel">Diesel</button>
+				<button class="menuoption" data-sub="show">Show</button>
+				<button class="menuoption" data-sub="madeiras">Madeiras</button>
+				<button class="menuoption" data-sub="carros">Carros</button>
+				<button class="menuoption" data-sub="container">Contâiner</button>
+				<button class="menuoption" data-sub="alimentos">Alimentos</button>
+				<button id="menuoption-fechar" class="menuoption" data-action="menuoption-fechar"><i style="color:#d93033" class="fas fa-times"></i>Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="gasolina" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | GASOLINA</button>
+				<button class="menuoption" data-action="gasolina-01">Localidade (01)</button>
+				<button class="menuoption" data-action="gasolina-02">Localidade (02)</button>
+				<button class="menuoption" data-action="gasolina-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="diesel" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | DIESEL</button>
+				<button class="menuoption" data-action="diesel-01">Localidade (01)</button>
+				<button class="menuoption" data-action="diesel-02">Localidade (02)</button>
+				<button class="menuoption" data-action="diesel-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="show" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | SHOWS</button>
+				<button class="menuoption" data-action="show-01">Localidade (01)</button>
+				<button class="menuoption" data-action="show-02">Localidade (02)</button>
+				<button class="menuoption" data-action="show-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="madeiras" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | MADEIRAS</button>
+				<button class="menuoption" data-action="madeiras-01">Localidade (01)</button>
+				<button class="menuoption" data-action="madeiras-02">Localidade (02)</button>
+				<button class="menuoption" data-action="madeiras-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="carros" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | CARROS</button>
+				<button class="menuoption" data-action="carros-01">Localidade (01)</button>
+				<button class="menuoption" data-action="carros-02">Localidade (02)</button>
+				<button class="menuoption" data-action="carros-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="container" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | CONTÂINER</button>
+				<button class="menuoption" data-action="container-01">Localidade (01)</button>
+				<button class="menuoption" data-action="container-02">Localidade (02)</button>
+				<button class="menuoption" data-action="container-03">Localidade (03)</button>
+			</div>
+
+			<div data-parent="mainmenu" id="alimentos" style="display: none;">
+				<button class="menuoption" style="font-size: 17px">CARGAS | ALIMENTOS</button>
+				<button class="menuoption" data-action="alimentos-01">Localidade (01)</button>
+				<button class="menuoption" data-action="alimentos-02">Localidade (02)</button>
+				<button class="menuoption" data-action="alimentos-03">Localidade (03)</button>
+			</div>
+
+		</div>
+		<script src="https://kit.fontawesome.com/3e2d5ff50d.js"></script>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>
